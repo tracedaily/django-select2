@@ -499,7 +499,7 @@ class HeavySelect2Widget(HeavySelect2Mixin, forms.TextInput):
 
     """
     # We want it hidden but should be treated as if is_hidden is False
-    input_type = 'hidden'
+    # input_type = 'hidden'
 
     def init_options(self):
         self.options['multiple'] = False
